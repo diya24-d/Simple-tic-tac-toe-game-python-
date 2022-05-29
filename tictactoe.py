@@ -49,3 +49,40 @@ if __name__ == "__main__":
             break
         
         turn = 1 - turn
+        
+        
+        """ OUTPUT :
+              Welcome to Tic Tac Toe
+0 | 1 | 2 
+--|---|---
+3 | 4 | 5 
+--|---|---
+6 | 7 | 8 
+X's Chance
+Please enter a value: 4
+0 | 1 | 2 
+--|---|---
+3 | X | 5 
+--|---|---
+6 | 7 | 8 
+O's Chance
+Please enter a value: 2
+0 | 1 | O 
+--|---|---
+3 | X | 5 
+--|---|---
+6 | 7 | 8 
+X's Chance
+Please enter a value: 3
+0 | 1 | O 
+--|---|---
+X | X | 5 
+--|---|---
+6 | 7 | 8 
+O's Chance
+Please enter a value: 5
+0 | 1 | O 
+--|---|---
+X | X | O 
+--|---|---
+6 | 7 | 8 """
