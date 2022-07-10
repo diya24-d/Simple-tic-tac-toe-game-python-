@@ -12,9 +12,9 @@ def printBoard(xState, zState):
     seven = 'X' if xState[7] else ('O' if zState[7] else 7)
     eight = 'X' if xState[8] else ('O' if zState[8] else 8)
     print(f"{zero} | {one} | {two} ")
-    print(f"--|---|---")
+    print("--|---|---")
     print(f"{three} | {four} | {five} ")
-    print(f"--|---|---")
+    print("--|---|---")
     print(f"{six} | {seven} | {eight} ") 
 
 def checkWin(xState, zState):
@@ -47,10 +47,10 @@ if __name__ == "__main__":
         if(cwin != -1):
             print("Match over")
             break
-        
+
         turn = 1 - turn
-        
-        
+
+
         """ OUTPUT :
               Welcome to Tic Tac Toe
 0 | 1 | 2 
